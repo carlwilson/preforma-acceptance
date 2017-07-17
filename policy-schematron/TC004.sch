@@ -3,6 +3,7 @@
   <sch:pattern>
     <sch:rule context="/report/jobs/job">
       <sch:assert test="not(featuresReport/annotations/annotation/subType = 'Movie')">File belongs to class TC004</sch:assert>
-    </sch:rule>
+      <sch:assert test="not(featuresReport/annotations/annotation/subType = 'RichMedia')">File belongs to class TC004</sch:assert>
+	</sch:rule>
   </sch:pattern>
 </sch:schema>
