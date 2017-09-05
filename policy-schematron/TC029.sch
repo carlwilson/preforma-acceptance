@@ -2,7 +2,7 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt">
   <sch:pattern>
     <sch:rule context="/report/jobs/job">
-      <sch:assert test="not(featuresReport/actions/action/@type = 'no-op')">File belongs to class TC029</sch:assert>
+      <sch:assert test="not(featuresReport/actions/action/@type = 'NOP')">File belongs to class TC029</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>
